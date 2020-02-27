@@ -1,0 +1,83 @@
+.titulaso {
+    font-family: Summer;
+}
+
+#sec-artist {
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+}
+
+.img-artista {
+    width: 500px;
+    height: 300px;
+}
+
+.img-artista-m {
+    width: 300px;
+    height: 200px;
+}
+
+/*tamaño imágenes artistas en ordenador*/
+@media screen and (max-width:1200px) {
+    .img-artista {
+        display: none;
+    }
+}
+
+/*tamaño imágenes artistas en móvil*/
+@media screen and (min-width:1200px) {
+    .img-artista-m {
+       display: none;
+    }
+}
+
+#sec-artist {
+    background-color: #e6e1e0;
+}
+
+#chrisbrown {
+    -webkit-box-shadow: -1px -1px 35px 12px rgba(242,226,5,1);
+    -moz-box-shadow: -1px -1px 35px 12px rgba(242,226,5,1);
+    box-shadow: -1px -1px 35px 12px rgba(242,226,5,1);
+}
+
+#divartista:hover, #divartista2:hover, #divartista3:hover, #divartista4:hover {
+    cursor: pointer;
+}
+
+/*características de imagen de CB que aparece*/
+#cbaparece, #tygaaparece {
+    position: absolute;
+    left: -1000px;
+}
+
+#halsey {
+    -webkit-box-shadow: -1px -1px 35px 12px #f2b705;
+    -moz-box-shadow: -1px -1px 35px 12px #f2b705;
+    box-shadow: -1px -1px 35px 12px #f2b705;
+}
+
+#halaparece {
+    position: absolute;
+    left: 15px;
+    top: -1000px;
+}
+
+#tyga {
+    -webkit-box-shadow: -1px -1px 35px 12px #f27405;
+    -moz-box-shadow: -1px -1px 35px 12px #f27405;
+    box-shadow: -1px -1px 35px 12px #f27405;
+}
+
+
+#justinbieber {
+    -webkit-box-shadow: -1px -1px 35px 12px #a62f03;
+    -moz-box-shadow: -1px -1px 35px 12px #a62f03;
+    box-shadow: -1px -1px 35px 12px #a62f03;
+}
+
+#justinaparece {
+    position: absolute;
+    left: 15px;
+    top: -2000px;
+}

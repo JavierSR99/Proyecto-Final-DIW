@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Alovera SBF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="../img/Guía de estilos/icono.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/menu.css" type="text/css" rel="stylesheet">
+    <link href="css/form.css" type="text/css" rel="stylesheet">
+    <link href="css/footer.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <!--MENÚ HAMBURGUESA-->
+    <section>
+        <div class="hamburger">
+            <div class="_layer -top"></div>
+            <div class="_layer -mid"></div>
+            <div class="_layer -bottom"></div>
+        </div>
+        <nav class="menuppal">
+            <ul>
+                <li>
+                    <a href="index.html" class="home">Home</a>
+                </li>
+                <li>
+                    <a href="artistas.html" class="artistas">Artistas</a>
+                </li>
+                <li>
+                    <a href="localizacion.html" class="loc">Localización</a>
+                </li>
+                <li>
+                    <a href="form.html" class="inscribir">Inscribirse</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <!--TÍTULO DEL FESTIVAL-->
+    <section class="pb-2" id="titulo">
+        <div class="container" id="inicio">
+            <div class="row">
+                <div class="col-2" id="olitas">
+                    <img src="../img/Guía de estilos/olas inversas.png" alt="olas" class="olas" />
+                </div>
+                <div class="col-8 text-center">
+                    <h1 class="cartel">ALOVERA SUMMER BEACH FESTIVAL</h1>
+                </div>
+                <div class="col-2 pt-6" id="olazas">
+                    <img src="../img/Guía de estilos/olas.png" alt="olas" class="olas oleaje" />
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!--FORMULARIO-->
+    <section id="formu">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="titulosec">COME ALONG, YOU JUST LIVE ONCE</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <form>
+                        <div class="form-group row">
+                            <label for="Nombre" class="col-sm-2 col-form-label">Name </label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="Nombre" pattern="[A-ZÑÁÉÍÓÚ]{1}[a-zñáéíóú]+"
+                                    placeholder="first letter in capital :)">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Apellidos" class="col-sm-2 col-form-label">Surname</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="Apellidos"
+                                    pattern="[A-ZÑÁÉÍÓÚ]{1}[a-zñáéíóú]+" placeholder="same as the name :)">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <legend class="col-form-label col-sm-2 pt-0">Genre</legend>
+                            <div class="form-check form-check-inline ml-3">
+                                <input class="form-check-input" type="radio" name="genre" id="mangenre" value="man">
+                                <label class="form-check-label" for="mangenre">Man</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="genre" id="womangenre"
+                                    value="woman">
+                                <label class="form-check-label" for="womangenre">Woman</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="genre" id="othergenre"
+                                    value="other">
+                                <label class="form-check-label" for="othergenre">Other</label>
+                            </div>
+                        </div>
+                        <div class="form-row align-items-center">
+                            <div class="col-auto my-1">
+                                <label class="mr-sm-2 sr-only" for="selectplan">Preference</label>
+                                <select class="custom-select mr-sm-2" id="selectplan">
+                                    <option selected disabled>Choose one plan</option>
+                                    <option value="1">Cheap</option>
+                                    <option value="2">Expensive</option>
+                                    <option value="3">Premium</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group my-1">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="terminos" required>
+                                <label class="form-check-label" for="terminos">
+                                    Agree to terms and conditions
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn" id="btnsub">Subscribe</button>
+                                <button type="reset" class="btn" id="btndelete">Delete</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--TARJETAS DE OPCIONES-->
+    <section id="tarjetas" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="titulosec">OUR PLANNING INFO.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">CHEAP OPTION</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                The best and cheapest option, perfect if you want to come just a day or a couple. It includes
+                                nothing, but you can come and enjoy the music. Regular price: 50€/a day. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">EXPENSIVE OPTION</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Same as the cheap option, but it is more expensive due to there are some little idiots who don't read
+                                anything and think the expensive option is better than the cheap one, but it isn't.
+                                Regular price: 100€/a day. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">PREMIUM OPTION</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Now... this is the best option, the one which is unreachable for everyone except rich people. Premium
+                                option includes shower service, nasty food and, of course, outrageous drinks that were farted by a cow.
+                                Regular price: 300€/a day.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <section id="footer">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h5 class="titulosec">OUR SOCIAL MEDIA</h5>
+                </div>
+            </div>
+            <div class="row py-1">
+                <div class="col-md-6 col-sm-12">
+                    <img src="../img/Guía de estilos/snapchat.png" alt="snapchat" class="img-footer" />
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <p class="jackinput pt-2">@AloSBF</p>
+                </div>
+            </div>
+            <div class="row py-1">
+                <div class="col-md-6 col-sm-12">
+                    <img src="../img/Guía de estilos/twitter.svg" alt="twitter" class="img-footer" />
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <p class="jackinput pt-2">@Alovera_SBF</p>
+                </div>
+            </div>
+            <div class="row py-1">
+                <div class="col-md-6 col-sm-3">
+                    <img src="../img/Guía de estilos/instagram.svg" alt="instagram" class="img-footer" />
+                </div>
+                <div class="col-md-6 col-sm-3">
+                    <p class="jackinput pt-2">@AloveraSummerBeachFest</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footermovil">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h5 class="titulosec">OUR SOCIAL MEDIA</h5>
+                </div>
+            </div>
+            <div class="row py-1">
+                <div class="col-sm-6">
+                    <img src="../img/Guía de estilos/snapchat.png" alt="snapchat"
+                        class="rounded mx-auto d-block img-footer-m" />
+                </div>
+                <div class="col-sm-6 text-center">
+                    <p class="jackinput pt-2">@AloSBF</p>
+                </div>
+            </div>
+            <div class="row py-1">
+                <div class="col-sm-6">
+                    <img src="../img/Guía de estilos/twitter.svg" alt="twitter"
+                        class="rounded mx-auto d-block img-footer-m" />
+                </div>
+                <div class="col-sm-6 text-center">
+                    <p class="jackinput pt-2">@Alovera_SBF</p>
+                </div>
+            </div>
+            <div class="row py-1">
+                <div class="col-sm-6">
+                    <img src="../img/Guía de estilos/instagram.svg" alt="instagram"
+                        class="rounded mx-auto d-block img-footer-m" />
+                </div>
+                <div class="col-sm-6 text-center">
+                    <p class="jackinput pt-2">@AloveraSummerBeachFest</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="../JQuery/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            // al hacer click en el icono de las tres rayas
+            $('.hamburger').click(function () {
+                // se intercambia la clase del icono y de la lista de opciones (aparece la lista y el icono cambia de apariencia)
+                $('.hamburger').toggleClass('is-active');
+                $('.menuppal').toggleClass('is-active');
+            });
+
+            //bucle infinito para animación de olas
+            for (let i = 0; i <= 1000; i++) {
+                //se desplazan hacia la izquierda y vuelven a su posición inicial
+                $('#olitas').animate({ 'left': "-=20px" }, 2000).animate({ 'left': "+20px" }, 2000);
+                $('#olazas').animate({ 'left': "-=20px" }, 2000).animate({ 'left': "+20px" }, 2000);
+            }
+        });
+    </script>
+</body>
+
+</html>

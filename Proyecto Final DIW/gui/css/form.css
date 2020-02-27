@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Rightland;
+    src: url('../fonts/rightland/Rightland.otf');
+}
+
+@font-face {
+    font-family: Summer;
+    src: url('../fonts/summer_2/Summer-PersonalUse.ttf');
+}
+
+@font-face {
+    font-family: Jack Input;
+    src: url('../../fonts/jackinput/JAi_____.TTF');
+}
+
+#formu {
+    font-family: Jack Input;
+    border-bottom: 1px solid black;
+}
+
+#btnsub, #btndelete {
+    background-color:#ece2c6;
+}
+
+#btnsub:hover, #btndelete:hover {
+    opacity: 0.5;
+}
+
+#tarjetas {
+    font-family: Jack Input;
+}
